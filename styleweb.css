@@ -1,0 +1,31 @@
+/* Custom Styles for WebFusion */
+body {
+    font-family: 'Roboto', sans-serif;
+background-color:lightblue;
+text-align:center;
+border:3px solid green;
+margin:0px;
+}
+header .btn {
+    padding: 4px 23px;
+    font-size: 1.2rem;
+    
+}
+.btn{
+background-color: #4DD0E1;
+border: 2px solid green;
+width: 160px;
+border-radius:300px;
+box-shadow:2px 2px 2px black;
+}
+
+.card {
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}

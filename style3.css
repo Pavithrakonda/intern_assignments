@@ -1,0 +1,145 @@
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+/*portfolio*/
+.navbar
+{
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+background-color:black;
+}
+.navbar-left{
+padding-left:20px;
+}
+.logoe{
+border-radius:100px;
+}
+.navbar-right
+{
+padding-right:20px;
+display:flex;
+flex-direction:row;
+align-items:center;
+}
+.a-element{
+padding:20px;
+margin:3px;
+font-family:system-ui;
+font-size:20px;
+font-weight:bold;
+text-decoration:none;
+color:white;
+}
+.home
+{
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:space-between;
+/*border:3px solid purple;
+height:85vh;*/
+}
+.home-left{
+width:50vw;
+text-align:left;
+padding-left:100px;
+}
+.home-right{
+/*width:50vw;*/
+padding-left:50px;
+padding-right:60px;
+
+}
+.home-h{
+font-family: "Nanum Gothic", sans-serif;
+font-size:40px;
+font-weight:100px;
+color:rgb(0, 128, 255);
+}
+.home-p{
+font-family: "Nanum Gothic", sans-serif;
+font-size:30px;
+color:white;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color:black;
+}
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.about, .skills, .projects, .resume, .contact {
+    background-color:black;
+    color:white;
+    margin-bottom: 20px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills ul {
+    display: flex;
+    justify-content: center;
+}
+
+.skills ul li {
+    margin: 0 15px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #007bff;
+    color: white;
+
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact .socials a {
+    color: #007bff;
+    text-decoration:none;
+    margin: 0 10px;
+}
+
+.contact .socials  {
+    text-decoration:none;
+}
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
